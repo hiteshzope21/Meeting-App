@@ -1,0 +1,43 @@
+body{ 
+    background:rgb(27, 27, 27);
+}
+.block{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(248, 247, 247);
+    padding: 20px;
+    width: 18%;
+    margin-top: 150px;
+    margin-left: 550px;
+    color: white;
+}
+.block h1{
+    text-align: center;
+}
+.form-group{
+    padding: 10px;
+}
+.form-group input{
+    width: 100%;
+    padding: 7px;
+    outline: none;
+}
+form .btn{
+    font-size: 18px;
+}
+.para-1 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  @media (max-width: 600px) {
+    .block {
+      width: 40%;
+      margin-top: 140px;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  }
+  
+  

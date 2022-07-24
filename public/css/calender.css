@@ -1,0 +1,41 @@
+
+.page-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.date{
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+}
+h3{
+    color: rgb(187, 187, 187);
+}
+.meeting-scedule{
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+.meet-number{
+    width: 25px;
+}
+.meeting-details{
+    flex-grow: 1;
+    display: flex;
+    flex-basis: 100%;
+    background-color:rgb(131, 198, 221);;
+    width: auto;
+    height: 40px;
+}
+.meeting-day-details{
+    flex-grow: 1;
+    display: flex;
+    position: relative;
+    margin: 5px 0px 5px 0px;
+    align-self: flex-start;
+    justify-self: center;
+    flex-direction: column;
+    background-color:gray;
+}

@@ -1,0 +1,49 @@
+.form{
+    display: flex;
+    justify-content: center;  
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    font-size: 1.2em;
+    color:rgb(253, 247, 247);
+    margin-top: 2em;
+}
+.registration-form{
+  align-items: center;
+  border: 1px solid rgb(252, 251, 251);
+  border-radius: 2px;
+  padding: 25px;
+  width: 30%;
+}
+
+.body{
+   
+    background:rgb(27, 27, 27);
+}
+h1 {
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+  }
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+} 
+.register-btn{
+  padding: 20px;
+  border: none;
+  border-radius: 3px;
+}
+@media (max-width: 600px) {
+  .registration-form {
+    width: 60%;
+    margin-top: 10%;
+  }
+}

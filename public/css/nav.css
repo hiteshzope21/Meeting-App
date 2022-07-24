@@ -1,0 +1,30 @@
+* {
+margin: 0;
+padding: 0;
+/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    background-color:#eee ;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+.nav1,.nav2{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    /* width: 400px; */
+}
+.nav1{
+    width: 70px;
+    margin-left: 20px;
+    padding: 5px;
+}
+.nav2{
+    width: 300px;
+    padding: 5px;
+}
+.nav-items-selected a{
+    color: rgb(175, 175, 175);
+}

@@ -1,0 +1,31 @@
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.meet-section{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.active{
+  color: blue;
+  text-decoration: none;
+  border: none;
+}
+.not-active{
+  color: black;
+  text-decoration: none;
+}
+.filter ,.add-meet {
+    border: 1px solid black;
+    outline: none;
+    border-bottom: 0px;
+    background: none;
+    padding: 3px;
+    border-radius: 2px;
+  }
+  .add-form{
+    background-color: rgb(142, 206, 228);
+    padding: 10px;
+    margin-top: 7px;
+    border-radius: 2px;
+} 

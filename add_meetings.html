@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meeting page</title>
+    <link rel="stylesheet" href="/external/normalize.css">
+    <link rel="stylesheet" href="/css/utils.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/meetings.css">
+    <link rel="stylesheet" href="/css/add_meetings.css">
+</head>
+<body>
+    <nav class="link-plain">
+        <div class="nav1 list-unstyled">
+            <div class="nav-item-selected">
+               <a href="/calender.html"class="link-plain nav1 list-unstyled ">Calender</a>
+            </div>
+            <div>
+               <a href="/filter_search.html"class="link-plain nav1 list-unstyled">Meetings</a>
+            </div>
+            <div>
+               <a href="/teams.html"class="link-plain nav1 list-unstyled">Teams</a>
+            </div>
+        </div>
+        <div class="nav2">
+            <div>
+                Hello <span style="color: blue;">hiteshzope@gmail.com</span>
+            </div>
+            <div>
+                <a href=""class="link-plain ">Logout</a>
+             </div>    
+        </div>
+    </nav>
+    <section class="container">
+        <h1>Meetings</h1>
+        <hr>
+        <div class="meet-section">
+            <a href="/filter_search.html" class="filter active">filter/Search Meeting</a>
+            <a href="/add_meetings.html" class="add-meet not-active">Add a Meeting</a>
+        </div>
+        <div class="add-form">
+            <h2>Add new meeting</h2>
+            <hr>
+            <div>
+            <form action="">
+                <div><label for="date">Date</label></div>
+                <div><input type="date" name="date" id="date" placeholder="dd/mm/yyyy"></div>
+                <div><label for="start_time">Start time(hh:mm)</label></div>
+                <div><input type="time" name="time" id="start_time" placeholder="hh:mm"></div>
+                <div><label for="end_time">End time(hh:mm)</label></div>
+                <div><input type="time" name="end_time" id="end_time" placeholder="hh:mm"></div>
+                <div><label for="description">description</label></div>
+                <div><textarea name="description" id="description" cols="100" rows="4"></textarea></div>
+                <div><label for="email_id">EmailIDs of attendees or team's short</label></div>
+                <div><input type="text" name="email_id" id="email_id"></div>
+                <div>Seperate EmailIDs/ team short names by commas - team short names always being with @</div>
+                <div><button>Add Meetings</button></div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

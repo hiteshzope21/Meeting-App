@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meeting page</title>
+    <link rel="stylesheet" href="/external/normalize.css">
+    <link rel="stylesheet" href="/css/utils.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/filter.css">
+</head>
+<body>
+    <nav class="link-plain">
+        <div class="nav1 list-unstyled">
+            <div class="nav-item-selected">
+               <a href="/calender.html"class="link-plain nav1 list-unstyled ">Calender</a>
+            </div>
+            <div>
+               <a href="/filter_search.html"class="link-plain nav1 list-unstyled">Meetings</a>
+            </div>
+            <div>
+               <a href="/teams.html"class="link-plain nav1 list-unstyled">Teams</a>
+            </div>
+        </div>
+        <div class="nav2">
+            <div>
+                Hello <span style="color: blue;">hiteshzope@gmail.com</span>
+            </div>
+            <div>
+                <a href=""class="link-plain ">Logout</a>
+             </div>    
+        </div>
+    </nav>
+    <section class="container">
+        <h1>Meetings</h1>
+        <hr>
+        <div class="meet-section">
+            <a href="/filter_search.html" class="filter active">filter/Search Meeting</a>
+            <a href="/add_meetings.html" class="add-meet not-active">Add a Meeting</a>
+        </div>
+        <div id="search-filter" class="tabcontent">
+            <div class="filter-form">
+                <form action="" method="POST">
+
+                    <h1 id="filter-heading">search for meetings </h1>
+                    <hr>
+                    <div class="form-group">
+                        <label for="date" class="form-data">Date</label>
+                        <br>
+                        <select class="form-control" id="search">
+                            <option class="options">ALL</option>
+                            <option class="options">PAST</option>
+                            <option class="options">TODAY</option>
+                            <option class="options">UPCOMING</option>
+
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="search" class="form-data">Search for</label>
+                        <textarea name="search" id="search" cols="5" rows="3"
+                            placeholder="search using words which describe the meeting"></textarea>
+                    </div>
+
+
+                    <button class="btn-add">search</button>
+
+                </form>
+
+            </div>
+
+            <div class="filter-box">
+
+                <h1>Meeting Matching search criteria</h1>
+                <hr>
+
+                <div class="filter-content">
+                    <p><span id="meet-date">30 june 2022</span> 06:00 - 07:00</p>
+
+
+                    <p>Project kickoff</p>
+                    <div>
+                        <button class="excuse_your_self">Excuse yourself</button>
+                    </div>
+                    <hr>
+
+                    <p class="members-email"><span><b> Attendee :</b></span> fakeaniket@fynd.com , fakemanish@fynd.com</p>
+                    <div>
+                        <select name="member" id="member">
+                            <option value="select">Select Member</option>
+                            <option value="">jatin@gmail.com</option>
+                            <option value="">manish@gmail.com</option>
+                            <option value="">aniket@gmail.com</option>
+                            <option value="">atul@gmail.com</option>
+                          </select>
+                        <button class="btn-add">Add</button>
+                    </div>
+                </div>
+
+                <div class="filter-content">
+                    <p><span id="meet-date">28 june 2022</span> 09:00 - 10:30</p>
+
+
+                    <p>AWS Architecture</p>
+                    <div>
+                        <button class="excuse_your_self">Excuse yourself</button>
+                    </div>
+                    <hr>
+
+                    <p class="members-email"><span>Attendee :</span> fakeemail@fynd.com , fakeemail02@fynd.com</p>
+                    <div>
+                        <select name="member" id="member">
+                            <option value="select">Select Member</option>
+                            <option value="">jatin@gmail.com</option>
+                            <option value="">manish@gmail.com</option>
+                            <option value="">aniket@gmail.com</option>
+                            <option value="">atul@gmail.com</option>
+                          </select>
+                        <button class="btn-add">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
